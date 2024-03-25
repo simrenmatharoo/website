@@ -1,10 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #cbf7e4;
 }
 h1 {
-    color: blue;
+    color: rgb(7, 209, 85);
 }
-.button { 
-	float:right; 
-} 
+.login-button {
+    font-family:cursive;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.home{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.date-text{
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 24px; 
+}
