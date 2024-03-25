@@ -38,3 +38,59 @@ h1 {
     font-weight: bold; 
     font-size: 24px; 
 }
+.container{
+    text-align: center;
+}
+#emoji1{
+    font-size: 150px;
+}
+
+/*login / signup forms */
+.containerLogin {
+    width: 300px; /* Fixed width container */
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#message {
+    margin-top: 20px;
+}
+#message a {
+    color: #007bff;
+    text-decoration: none;
+}
+#message a:hover {
+    text-decoration: underline;
+}
